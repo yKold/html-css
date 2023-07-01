@@ -4,13 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>iframe002</title>
+    <style>
+        iframe {
+            border: 2px solid black;
+            width: 90vw;
+            height: 200px;
+        }
+    </style>
 </head>
 <body>
     <h1>teste com iframe</h1>
+
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit, beatae tenetur! Eius blanditiis voluptates, maiores animi alias fuga explicabo sequi, facilis ullam molestias eos. Cum eius animi similique unde nobis!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis blanditiis soluta a est dolorum sed voluptates nihil quisquam minus in autem quos, aspernatur libero tempore fugit praesentium, itaque voluptate eligendi.</p>
-    <iframe src="pag001.html" frameborder="0" height="500px" width="500px">
+   
+    <ul>
+        <li><a href="pag001.html" target="frame">Pag 01</a></li>
+        <li><a href="pag002.html" target="frame">Pag 02</a></li>
+        <li><a href="pag003.html" target="frame">Pag 03</a></li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem consequuntur enim quas neque officiis quae eligendi natus unde necessitatibus optio incidunt voluptatibus cum nemo, repellendus, odit doloremque possimus dignissimos nulla.</p>
+
+    <iframe srcdoc="<h1>Olá</h1> <p>Este é um conteúdo estático, click em outro link (usei 'srcdoc')</p>" name="frame" frameborder="0">
         <p>Ifelizmente o seu navegador n é compativel</p>
     </iframe>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem consequuntur enim quas neque officiis quae eligendi natus unde necessitatibus optio incidunt voluptatibus cum nemo, repellendus, odit doloremque possimus dignissimos nulla.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit deserunt consequuntur sed voluptate tempore. Distinctio temporibus odio at cumque cum repellat nemo, placeat nostrum, deleniti consequatur totam ducimus magni repellendus!</p>
 </body>
 </html>
