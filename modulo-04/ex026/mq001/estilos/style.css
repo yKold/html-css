@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+header {
+    
+}
+
+menu {
+    background-color: red;
+}
+
+li {
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+}
+
+main {
+    background-color: blue;
+}
